@@ -1,0 +1,16 @@
+@MediatRPattern_HostAddress = http://localhost:5082
+
+
+GET {{MediatRPattern_HostAddress}}/api/employee
+
+###
+
+
+POST {{MediatRPattern_HostAddress}}/api/employee
+Content-Type: application/json
+{
+  "Name" : "Dananjana Miyuranga",
+  "Role" : "Software Engineer",
+  "Email" : "test@gmail.com"
+}
+
